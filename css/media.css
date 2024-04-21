@@ -1,0 +1,25 @@
+@media (max-width: 1024px) {
+  /* glopalr to change phone */
+  nav .icons,
+  .saidbar,
+  section.continer .news,
+  section.continer .home-continer .activity {
+    display: none;
+  }
+
+  /* =========== nav ============ */
+  nav .search {
+    flex-basis: 100%;
+  }
+
+  /* =========== home ============ */
+  section.continer {
+    padding-top: 50px;
+    grid-template-columns: 100%;
+    grid-template-areas: "home";
+    width: 100%;
+  }
+  section.continer .home .home-continer {
+    width: 95%;
+  }
+}
